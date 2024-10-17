@@ -30,7 +30,7 @@ def main():
 
     st.sidebar.header("Manual File Inputs")
     inference_script = st.sidebar.text_input("Path to inference.py", "inference.py")
-    checkpoint_path = st.sidebar.text_input("Path to model checkpoint", "checkpoints/wav2lip_gan.pth")
+    checkpoint_path = st.sidebar.text_input("Path to model checkpoint", "wav2lip_gan.pth")
 
     audio_file = st.file_uploader("Upload an audio file (WAV format)", type=["wav"])
     image_file = st.file_uploader("Upload an avatar image", type=["jpg", "jpeg", "png"])
