@@ -1,0 +1,11 @@
+streamlit
+Pillow
+opencv-python
+scipy
+numpy
+torch
+torchaudio
+moviepy
+audioread
+matplotlib
+tqdm
